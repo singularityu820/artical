@@ -40,7 +40,7 @@ t.parentNode.insertBefore(e,t)}})();
        <a href="https://wcowin.work/ " target="_blank">Miaobosen's Blog</a> 
       </div> 
       <div class="info">
-       “循此苦旅，以达星辰”
+       “爱无止息”
       </div> 
      </div> 
     </div>

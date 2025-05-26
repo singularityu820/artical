@@ -83,7 +83,13 @@ comments: false
     <!-- - [支持作者](about/zcw.md)  -->
 </div>
 
+<div class="grid cards" markdown>
+-   :material-clock-fast:{ .lg .middle }
 
+    ---
+	特别鸣谢 **[Wcowin](https://wcowin.work)** 的博客模板
+
+</div>
 <!-- [^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵  
 [^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection -->
 
