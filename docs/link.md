@@ -34,10 +34,10 @@ t.parentNode.insertBefore(e,t)}})();
   <div class="links-content"> 
    <div class="link-navigation"> 
     <div class="card"> 
-     <img class="ava" src="https://pic4.zhimg.com/80/v2-a0456a5f527c1923f096759f2926012f_1440w.webp" /> 
+     <img class="ava" src="https://avatars.githubusercontent.com/u/64451181?v=4" /> 
      <div class="card-header"> 
       <div> 
-       <a href="https://wcowin.work/ " target="_blank">Wcowin's Blog</a> 
+       <a href="https://wcowin.work/ " target="_blank">Miaobosen's Blog</a> 
       </div> 
       <div class="info">
        “循此苦旅，以达星辰”
@@ -91,7 +91,7 @@ t.parentNode.insertBefore(e,t)}})();
 <br>
 
 # 失联人员
-<div id="rcorners4" >
+<!-- <div id="rcorners4" >
   <div class="links-content"> 
    <div class="link-navigation"> 
    <div class="card"> 
@@ -108,7 +108,7 @@ t.parentNode.insertBefore(e,t)}})();
    </div> 
   </div>
   <HR style="FILTER: progid:DXImageTransform.Microsoft.Shadow(color:#608DBD,direction:145,strength:15)" width="100%" color=#608DBD SIZE=1>
-</div>
+</div> -->
 
 
 
@@ -135,8 +135,8 @@ t.parentNode.insertBefore(e,t)}})();
 * 建站一个月以上
 * 未添加友链或申请未通过，评论留言会被隐藏。
 
-本站已经加入[十年之约](https://www.foreverblog.cn/)：
-<a href="https://www.foreverblog.cn/" target="_blank" > <img src="https://img.foreverblog.cn/logo_en_default.png" alt="" style="width:auto;height:16px;"> </a>请放心添加本站友链
+<!-- 本站已经加入[十年之约](https://www.foreverblog.cn/)：
+<a href="https://www.foreverblog.cn/" target="_blank" > <img src="https://img.foreverblog.cn/logo_en_default.png" alt="" style="width:auto;height:16px;"> </a>请放心添加本站友链 -->
 
 ***
 
@@ -179,11 +179,11 @@ t.parentNode.insertBefore(e,t)}})();
       avatar: https://pic4.zhimg.com/80/v2-a0456a5f527c1923f096759f2926012f_1440w.webp
       descr: 循此苦旅，以达星辰
     ```
-=== "通用"
+<!-- === "通用"
 
     点击填写[**友链申请**问卷](https://wj.qq.com/s2/14878680/20ac/)  
 
-    [![](https://s2.loli.net/2024/06/27/9gw37T4vPASxiD8.png){width=50%}](https://wj.qq.com/s2/14878680/20ac/)
+    [![](https://s2.loli.net/2024/06/27/9gw37T4vPASxiD8.png){width=50%}](https://wj.qq.com/s2/14878680/20ac/) -->
 
     
 ***

@@ -106,7 +106,7 @@ comments: false
 <body>
     <div class="button-container">
         <button id="giscus-btn" class="buttonxuan active">Giscus</button>
-        <button id="cusdis-btn" class="buttonxuan">Cusdis</button>
+        <!-- <button id="cusdis-btn" class="buttonxuan">Cusdis</button> -->
     </div>
     <div id="giscus" class="comment-system active">
         <script src="https://giscus.app/client.js"

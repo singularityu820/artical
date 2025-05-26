@@ -1,7 +1,7 @@
 ---
 title: 博客文章测试
-authors: [Wcowin]
-date: 2021-12-18
+authors: [mbs]
+date: 2025-05-25
 description: >
   Our new blog is built with the brand new built-in blog plugin. You can build
   a blog alongside your documentation or standalone

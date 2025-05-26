@@ -1,8 +1,8 @@
 #[Info]
-site_name: Mkdocs教程 #your site name 显示在左上角
-site_url: http://wcowin.work/Mkdocs-Wcowin
-site_description: Content and ambitious, gentle yet firm.
-site_author: 王科文(Wcowin) # your name
+site_name: Singularityu's blog #your site name 显示在左上角
+site_url: https://singularityu820.github.io/artical/
+site_description: Know things, went places, done deeds, won fights, and still cute.
+site_author: 苗博森 # your name
 #[UI]
 theme:
   name: material
@@ -61,62 +61,10 @@ theme:
     # top: fontawesome/solid/angles-up
     alternate: fontawesome/solid/language
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://github.com/Wcowin/Mkdocs-Wcowin # 右上角点击跳转的链接
+repo_url: https://github.com/singularityu820/artical # 右上角点击跳转的链接
 repo_name: Mkdocs-Wcowin # 右上角的名字
 
-# [Navigtion]
-nav:
-  # - 主页: index.md
-  - MKdocs中文教程:
-      - 许可声明: blog/MIT.md
-      - MKdocs教程(三部曲):
-          - 0.Mkdocs教程前言: blog/Mkdocs/mkfirst.md
-          - 1.利用Mkdocs部署静态网页: blog/Mkdocs/mkdocs1.md
-          - 2.Mkdocs配置说明(mkdocs.yml): blog/Mkdocs/mkdocs2.md
-          - 3.解决Github Pages部署mkdocs自定义域名失效的问题: blog/Mkdocs/mkdocs3.md
-      - Mkdocs美化/补充:
-          - 添加Mkdocs博客: blog/Mkdocs/mkdocsblog.md
-          - 网页圆角化设计: blog/websitebeauty/yuanjiaohua.md
-          - 添加评论系统(giscus为例): blog/websitebeauty/mkcomments.md
-          - 添加在线聊天: blog/websitebeauty/webtalknow.md
-          - 添加友链: blog/websitebeauty/linktech.md
-          - 添加顶部公告栏: blog/websitebeauty/header.md
-          - 修改网站字体: blog/websitebeauty/mkdocsfont.md
-          - JS实现鼠标样式: blog/websitebeauty/shubiao.md
-          - 背景特效: blog/websitebeauty/backgroud.md
-          - 嵌入PDF文件: blog/websitebeauty/mkpdf.md
-          - 相对地址的一些问题: blog/websitebeauty/Relativeaddress.md
-          - 添加404页面: blog/websitebeauty/404.md
-          - 为MKdocs添加文章修订时间戳: blog/websitebeauty/time.md
-          - 页脚设置: blog/websitebeauty/footer.md
-          - 加速网站访问的一些心得: blog/websitebeauty/accelerate.md
-  - 建设MKdocs技能指北:
-      - Markdown:
-          - Markdown指南: develop/Markdown/markdown.md
-          - MWeb Pro: develop/Markdown/MWeb.md
-      - Git 实用技巧: develop/git.md
-      - 利用Lighthouse测试网站性能: develop/lighthouse.md
-      - 如何将 github pages 迁移到 vercel 上托管: develop/vercel.md
-      - 设计美学:
-          - 唐·诺曼—情感设计的三个层次: develop/designbeauty/db1.md
-          - 我对设计的一些观点: develop/designbeauty/my-to-desihn.md
-
-  - 标签: tag.md
-  - 留言板: liuyanban.md
-  - 博客:
-      - index: blog/index.md
-  - 友链:
-      - 友链: link.md
-  - 关于:
-      - 作者个人简介: about/geren.md
-      - 个人简历: about/resume.md
-      - 支持作者: about/zcw.md
-      - 功能测试: about/test.md
-  - 个人博客: https://wcowin.work
-  - 个人简介: https://wcowin.work/Personal-Profile/#
-  - 使用本主题: https://github.com/new?template_name=Mkdocs-Wcowin&template_owner=Wcowin
-
-copyright: Copyright &copy; 2022~2025 Wcowin # 左下角的版权声明
+copyright: Copyright &copy; 2022~2025 Bosen # 左下角的版权声明
 
 extra:
   alternate:
@@ -125,49 +73,45 @@ extra:
       # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
       lang: zh   
     - name: English
-      link: /Mkdocs-Wcowin/en/
+      link: /docs/en/
       # https://wcowin-work.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=zh-CN&_x_tr_pto=wapp
       lang: en
-    - name: China(TW)
-      link: /Mkdocs-Wcowin/ZH-TW/
-      # https://wcowin-work.translate.goog/?_x_tr_sl=zh-CN&_x_tr_tl=zh-TW&_x_tr_hl=zh-CN&_x_tr_pto=wapp
-      lang: zh-TW
   generator: true #是否删除页脚显示“使用 MkDocs 材料制造”
   social:
     - icon: fontawesome/brands/weixin
       link: https://s1.imagehub.cc/images/2024/02/02/bb9ee71b03ee7a3b87caad5cc4bcebff.jpeg
       name: Wechat
-    - icon: fontawesome/brands/telegram
-      link: https://t.me/wecowin
-      name: telegram
-    - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
-      link: https://twitter.com/wcowin_
+    # - icon: fontawesome/brands/telegram
+    #   link: https://t.me/wecowin
+    #   name: telegram
+    # - icon: fontawesome/brands/x-twitter #联系方式图标 : https://fontawesome.com/ 去这里找图标
+    #   link: https://twitter.com/wcowin_
     - icon: fontawesome/brands/github
-      link: https://github.com/Wcowin
+      link: https://github.com/singularityu820/artical
 
     - icon: fontawesome/regular/envelope #联系方式图标
-      link: mailto:<wangkewen821@gmail.com> #邮件联系方式
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/1407028951/lists/4566631?type=series
-  analytics:
-    provider: google #谷歌分析
-    property: G-29HZMNR0KG ##如果你 clone 了my模板，请将这个修改为你的
+      link: mailto:<bosenmiao@gmail.com> #邮件联系方式
+    # - icon: fontawesome/brands/bilibili
+    #   link: https://space.bilibili.com/1407028951/lists/4566631?type=series
+  # analytics:
+  #   provider: google #谷歌分析
+  #   property: G-29HZMNR0KG ##如果你 clone 了my模板，请将这个修改为你的
 
-    # 网页底部反馈
-    feedback:
-      title: 此页面有帮助吗？
-      ratings:
-        - icon: material/thumb-up-outline #图标可自定义
-          name: This page was helpful
-          data: 1
-          note: >-
-            谢谢你的反馈！
-        - icon: material/thumb-down-outline
-          name: This page could be improved
-          data: 0
-          note: >-
-            Thanks for your feedback! Help us improve this page by
-            using our <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener">feedback form</a>.
+  #   # 网页底部反馈
+  #   feedback:
+  #     title: 此页面有帮助吗？
+  #     ratings:
+  #       - icon: material/thumb-up-outline #图标可自定义
+  #         name: This page was helpful
+  #         data: 1
+  #         note: >-
+  #           谢谢你的反馈！
+  #       - icon: material/thumb-down-outline
+  #         name: This page could be improved
+  #         data: 0
+  #         note: >-
+  #           Thanks for your feedback! Help us improve this page by
+  #           using our <a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener">feedback form</a>.
   # cookies设置（可选）
   # consent:
   #   title: Cookie consent
@@ -312,3 +256,57 @@ extra_css:
 
 hooks:
   - docs/overrides/hooks/socialmedia.py
+
+
+# [Navigtion]
+nav:
+  # - 主页: index.md
+  # - MKdocs中文教程:
+  #     - 许可声明: blog/MIT.md
+  #     - MKdocs教程(三部曲):
+  #         - 0.Mkdocs教程前言: blog/Mkdocs/mkfirst.md
+  #         - 1.利用Mkdocs部署静态网页: blog/Mkdocs/mkdocs1.md
+  #         - 2.Mkdocs配置说明(mkdocs.yml): blog/Mkdocs/mkdocs2.md
+  #         - 3.解决Github Pages部署mkdocs自定义域名失效的问题: blog/Mkdocs/mkdocs3.md
+  #     - Mkdocs美化/补充:
+  #         - 添加Mkdocs博客: blog/Mkdocs/mkdocsblog.md
+  #         - 网页圆角化设计: blog/websitebeauty/yuanjiaohua.md
+  #         - 添加评论系统(giscus为例): blog/websitebeauty/mkcomments.md
+  #         - 添加在线聊天: blog/websitebeauty/webtalknow.md
+  #         - 添加友链: blog/websitebeauty/linktech.md
+  #         - 添加顶部公告栏: blog/websitebeauty/header.md
+  #         - 修改网站字体: blog/websitebeauty/mkdocsfont.md
+  #         - JS实现鼠标样式: blog/websitebeauty/shubiao.md
+  #         - 背景特效: blog/websitebeauty/backgroud.md
+  #         - 嵌入PDF文件: blog/websitebeauty/mkpdf.md
+  #         - 相对地址的一些问题: blog/websitebeauty/Relativeaddress.md
+  #         - 添加404页面: blog/websitebeauty/404.md
+  #         - 为MKdocs添加文章修订时间戳: blog/websitebeauty/time.md
+  #         - 页脚设置: blog/websitebeauty/footer.md
+  #         - 加速网站访问的一些心得: blog/websitebeauty/accelerate.md
+  # - 建设MKdocs技能指北:
+  #     - Markdown:
+  #         - Markdown指南: develop/Markdown/markdown.md
+  #         - MWeb Pro: develop/Markdown/MWeb.md
+  #     - Git 实用技巧: develop/git.md
+  #     - 利用Lighthouse测试网站性能: develop/lighthouse.md
+  #     - 如何将 github pages 迁移到 vercel 上托管: develop/vercel.md
+  #     - 设计美学:
+  #         - 唐·诺曼—情感设计的三个层次: develop/designbeauty/db1.md
+  #         - 我对设计的一些观点: develop/designbeauty/my-to-desihn.md
+
+  - 标签: tag.md
+  - 留言板: liuyanban.md
+  - 博客:
+      - index: blog/index.md
+  - 友链:
+      - 友链: link.md
+  - 关于:
+      - 个人主页: about/index.md
+      # - 作者个人简介: about/geren.md
+      # - 个人简历: about/resume.md
+      # - 支持作者: about/zcw.md
+      # - 功能测试: about/test.md
+  # - 个人博客: https://wcowin.work
+  # - 个人简介: https://wcowin.work/Personal-Profile/#
+  # - 使用本主题: https://github.com/new?template_name=Mkdocs-Wcowin&template_owner=Wcowin

@@ -1,101 +1,27 @@
 ---
 hide:
-  # - navigation # 显示右
-  # - toc #显示左
+#   - navigation # 显示右
+#   - toc #显示左
   - footer
   - feedback
 comments: false
 ---
 
-<!--
-____    __    ____  ______   ______   ____    __    ____  __  .__   __. 
-\   \  /  \  /   / /      | /  __  \  \   \  /  \  /   / |  | |  \ |  | 
- \   \/    \/   / |  ,----'|  |  |  |  \   \/    \/   /  |  | |   \|  | 
-  \            /  |  |     |  |  |  |   \            /   |  | |  . `  | 
-   \    /\    /   |  `----.|  `--'  |    \    /\    /    |  | |  |\   | 
-    \__/  \__/     \______| \______/      \__/  \__/     |__| |__| \__| 
--->
 
-
-<center><font class="custom-font ml3">最好的MkDocs博客教程</font></center>
-<script src="https://cdn.statically.io/libs/animejs/2.0.2/anime.min.js"></script>
-<style>
-    .custom-font {
-    font-size: 31px; /* 默认字体大小为8px */
-    color: #757575;
-}
-@media (max-width: 768px) { /* 假设768px及以下为移动端 */
-    .custom-font {
-        font-size: 25px; /* 移动端字体大小为6px */
-    }
-}
-</style>
-
-
-
-
-<!-- <div id="rcorners2" >
-<div id="rcorners1" class="date-display">
-    <p class="p1"></p>
-</div>
-<style>
-    .date-display {
-        color: #4351AF;
-    } 
-</style>
-<script defer>
-    function format(newDate) {
-        const options = {
-            year: 'numeric',
-            month: '2-digit',
-            day: '2-digit',
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit',
-            weekday: 'long',
-            hour12: false
-        };
-        return new Intl.DateTimeFormat('zh-CN', options).format(newDate);
-    }
-    document.addEventListener('DOMContentLoaded', () => {
-        const p1 = document.querySelector(".p1");
-        function updateTime() {
-            const newDate = new Date();
-            if (p1) {
-                p1.textContent = format(newDate);
-            }
-            requestAnimationFrame(updateTime);
-        }
-        updateTime();
-    });
-</script>
-  <ul>
-    <li>通过主题和目录以打开文章</li>
-    <ul>
-      <li>基于Material for MkDocs美化</li>
-      <li>简洁美观，功能多元化，小白配置</li>
-    </ul>
-    <li>建议使用科学上网方式打开本站</li>
-    <li>
-      如遇到网页卡顿的情况，请使用<strong><a href="https://www.yuque.com/wcowin/mkdocs-wcowin?# 《Mkdocs-Wcowin中文教程》" target="_blank">Mkdocs-Wcowin中文教程(语雀)</a></strong>
-    </li>
-  </ul>
-</div>  -->
-
-
+<center><font  color= #757575 size=6.5 >牢骚太盛防肠断，风物长宜放眼量</font></center>
 
 <div class="grid cards" markdown>
 
 -   :material-notebook-edit-outline:{ .lg .middle } __导航栏__
 
     ---
-    ![image](https://pic3.zhimg.com/80/v2-0786a6086793ccca444226e9ab3561ec_1440w.webp){ class="responsive-image" align=right width="230" height="300" style="border-radius: 25px;" }
+    ![image](https://pic1.zhimg.com/80/v2-b9ae6898d33359da6be815bf60626af2_1440w.webp?source=2c26e567){ class="responsive-image" loading="lazy" align=right width="340" height="226" style="border-radius: 25px;" }
 
-    
-    - [x] {==简洁美观==} ，功能多元化，小白配置
-    - [x] 基于{~~~>Material for MkDocs~~}美化
-    - [x] 如遇页面卡顿，请使用{--科学上网--}
+    - [x] 通过{==目录==}以打开文章
+    - [x] 搜索{~~~>关键词~~}查询文章
+    - [x] 如遇页面卡顿，请使用[{--科学上网--}](blog/technique%20sharing/kexue.md)
     - [x] 𝕙𝕒𝕧𝕖 𝕒 𝕘𝕠𝕠𝕕 𝕥𝕚𝕞𝕖 !  
+
     === "Mac/PC端"
 
         请在上方标签选择分类/左侧目录选择文章
@@ -104,7 +30,6 @@ ____    __    ____  ______   ______   ____    __    ____  __  .__   __.
 
         请点击左上角图标选择分类和文章
     
-
 </div>
 <style>
     @media only screen and (max-width: 768px) {
@@ -115,92 +40,59 @@ ____    __    ____  ______   ______   ____    __    ____  __  .__   __.
 </style>
 
 
->不同于市面上过时的MkDocs教程，本站提供了最详细最便捷最前沿的MkDocs中文文字/视频教程，与[官方发布](https://squidfunk.github.io/mkdocs-material/changelog/)的教程版本同步。包含了MkDocs的安装、配置、主题美化、插件使用等内容。无论你是初学者还是有经验的用户，都能在这里找到你需要的帮助。我们还提供了示例和实用的技巧，帮助你更好地使用MkDocs。𝓳𝓾𝓼𝓽 𝓮𝓷𝓳𝓸𝔂 𝓲𝓽～
-
-<!-- - 基于Material for MkDocs美化
-- 简洁美观，功能多元化
-- 简单易上手，小白配置
-- 𝕙𝕒𝕧𝕖 𝕒 𝕘𝕠𝕠𝕕 𝕥𝕚𝕞𝕖 ! -->
-
-<!-- 视频教程(1) 联系我(2)
-{ .annotate }
-
-1. 点击右下角[:simple-bilibili:](https://space.bilibili.com/1407028951/lists/4566631?type=series)图标查看视频教程.
-2. TEL:18939533255(微信号) -->
-
 ***  
-
-<!-- <strong>推荐文章:material-book:</strong>
-
-  - [利用Mkdocs部署静态网页至GitHub pages](blog/Mkdocs/mkdocs1.md)
-  - [Mkdocs部署配置说明(mkdocs.yml)](blog/Mkdocs/mkdocs2.md)
-  - [如何给MKdocs添加友链](blog/websitebeauty/linktech.md)
-  - [网站添加Mkdocs博客](blog/Mkdocs/mkdocsblog.md)
-  - [Blogger](blog/index.md) -->
-
 
 
 <div class="grid cards" markdown>
 
--   :simple-materialformkdocs:{ .lg .middle } __Mkdocs教程(必看)__
+-   :octicons-bookmark-16:{ .lg .middle } __推荐的文章__
 
     ---
 
-    - [Mkdocs视频教程](https://space.bilibili.com/1407028951/lists/4566631?type=series){target=“_blank”}(Bilibili)
-    - [部署静态网页至GitHub pages](blog/Mkdocs/mkdocs1.md)
-    - [Mkdocs部署配置说明(mkdocs.yml)](blog/Mkdocs/mkdocs2.md)
-    - [如何给MKdocs添加友链](blog/websitebeauty/linktech.md)
-    - [网站添加Mkdocs博客](blog/Mkdocs/mkdocsblog.md)
+    <!-- - [模型上下文协议(MCP)简述](develop/AI/mcp.md)
+    - [DeepSeek:从入门到精通](develop/deepseek.md)
+    - [将Python文件打包成.exe可执行程序](blog/py/python.md)
+    - [Homebrew如何安装(Mac & Linux)](blog/Mac/homebrew.md)  -->
+    
+-   :simple-materialformkdocs:{ .lg .middle } __技术与工具__
+
+    ---
+    
+    <!-- - [Mkdocs前言](blog/Mkdocs/mkfirst.md)
+    - [利用Mkdocs部署静态网页](blog/Mkdocs/mkdocs1.md)
+    - [Mkdocs配置说明(mkdocs.yml)](blog/Mkdocs/mkdocs2.md)   
+    - [如何给MKdocs添加友链](blog/Mkdocs/linktech.md) -->
 
 
+-   :material-format-font:{ .lg .middle } __思考与表达__
 
+    ---
+
+    <!-- - [AI网站分享](develop/AI.md)
+    - [好用/好玩网站分享](blog/Webplay.md)
+    - [Mac/windows软件网站汇总](blog/macsoft.md)
+    - [重庆旅游推荐路线](trip/InCQ/CQ.md) -->
+    
 -   :simple-aboutdotme:{ .lg .middle } __关于__
 
     ---
-    - [Mkdocs-Wcowin博客主题社区](https://support.qq.com/products/646913/){target=“_blank”}
-    - [留言板](liuyanban.md)[^Knowing-that-loving-you-has-no-ending] 
-    - [Blogger](blog/index.md)   
-    - [:octicons-arrow-right-24: 了解我](about/geren.md)[^see-how-much-I-love-you]  
-    - [请作者喝杯咖啡](about/zcw.md)
 
+    - [留言板](liuyanban.md)
+    - [博客](blog/index.md)
+    - [:octicons-arrow-right-24: 了解我](about/index.md)
+    <!-- - [支持作者](about/zcw.md)  -->
 </div>
 
 
+<!-- [^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵  
+[^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection -->
 
-[^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵  
-[^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection
+<style>
+.md-grid {
+  max-width: 1220px;
+}
+</style>
 
-   <body>
-        <font color="#B9B9B9">
-        <p style="text-align: center; ">
-                <span>本站已经运行</span>
-                <span id='box1'></span>
-    </p>
-      <div id="box1"></div>
-      <script>
-        function timingTime(){
-          let start = '2023-10-14 00:00:00'
-          let startTime = new Date(start).getTime()
-          let currentTime = new Date().getTime()
-          let difference = currentTime - startTime
-          let m =  Math.floor(difference / (1000))
-          let mm = m % 60  // 秒
-          let f = Math.floor(m / 60)
-          let ff = f % 60 // 分钟
-          let s = Math.floor(f/ 60) // 小时
-          let ss = s % 24
-          let day = Math.floor(s  / 24 ) // 天数
-          return day + "天" + ss + "时" + ff + "分" + mm +'秒'
-        }
-        setInterval(()=>{
-          document.getElementById('box1').innerHTML = timingTime()
-        },1000)
-      </script>
-      </font>
-    </body>
-
-
-<!-- <script src="//code.tidio.co/6jmawe9m5wy4ahvlhub2riyrnujz7xxi.js" async></script> -->
 
 <style>
 body {
@@ -235,5 +127,56 @@ body::before {
     display: none; /* 在手机端隐藏网格效果 */
   }
 }
+
+
 </style>
 
+
+<!-- 优化后的 Waline 评论区代码，支持暗色模式自适应，结构更简洁，移动端适配更好 -->
+<!-- <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css" />
+
+<div id="waline"></div>
+
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  init({
+    el: '#waline',
+    serverURL: 'https://mk-docs-comments.vercel.app/',
+    emoji: [
+      'https://unpkg.com/@waline/emojis@1.1.0/qq',
+      'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji',
+      'https://unpkg.com/@waline/emojis@1.1.0/bilibili',
+      'https://unpkg.com/@waline/emojis@1.1.0/weibo',
+    ],
+    comment: true,
+    pageview: true,
+    lang: 'zh',
+    dark: 'auto', // 自动适配暗色模式
+    avatar: 'retro', // 可选：更有趣的头像风格
+  });
+</script> -->
+
+<!-- <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@docsearch/css@3 "/></pre></li>
+<script src=" https://cdn.jsdelivr.net/npm/@docsearch/js@3 "></script>
+ <script type="text/javascript">
+ docsearch({
+ appId: "HPAF2GI0JK",
+ apiKey: "98e3ce22d1357833c38b7b581ca07219",
+ indexName: "wcowin",
+ container: '#docsearch'
+ debug: false
+ });
+ </script>
+ <div id="docsearch"></div> -->
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2327435979273742"
+     crossorigin="anonymous"></script>
+
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-2327435979273742">
+</amp-auto-ads>
