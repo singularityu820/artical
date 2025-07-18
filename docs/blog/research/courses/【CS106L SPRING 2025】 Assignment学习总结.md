@@ -1,5 +1,16 @@
 ---
 title: 【CS106L SPRING 2025】 Assignment学习总结
+authors: [mbs]
+date: 2025-07-18
+# 隐藏的模块
+hide:
+  #  - navigation # 隐藏左边导航
+  #  - toc #隐藏右边导航
+  #  - footer #隐藏翻页
+  #  - feedback  #隐藏反馈
+tags:
+  - C++
+comments: true  #评论，默认不开启
 ---
 
 # 【CS106L SPRING 2025】 Assignment学习总结

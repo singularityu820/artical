@@ -261,12 +261,12 @@ hooks:
 # [Navigtion]
 nav:
   - 技术:
-    - 公开课:
-      - CS106L: blog\research\courses\【CS106L SPRING 2025】 Assignment学习总结.md
-  - 开发:
-  - 生活:
-    - 观点: 
-  - 总结:
+      - 公开课:
+          - CS106L: blog/research/courses/【CS106L SPRING 2025】 Assignment学习总结.md
+#  - 开发:
+#  - 生活:
+#      - 观点:
+#  - 总结:
   - 标签: tag.md
   - 留言板: liuyanban.md
   - 博客:
