@@ -1742,7 +1742,7 @@
 <p>任务一不是很难，只是让大家快速进入状态，核心目标很简单：处理一份课程 CSV 数据，最终拆分成 “已开设课程” 和 “未开设课程” 两个文件。</p>
 <h3 id="part-0-read-the-code-and-fill-in-the-course-struct">Part 0: Read the code and fill in the <code>Course</code> struct<a class="headerlink" href="#part-0-read-the-code-and-fill-in-the-course-struct" title="Permanent link">&para;</a></h3>
 <p>这一部分需要定义 <code>Course</code> struct 中变量的类型，阅读代码，转到 <code>is_valid_course&lt;Course&gt;</code> 的定义，发现具体内容如下
-![[docs\blog\research\img\ass1.png]] 那么根据代码我们就可以知道，三个成员变量都应该是 <code>std::string</code> 。</p>
+![[ass1.png]] 那么根据代码我们就可以知道，三个成员变量都应该是 <code>std::string</code> 。</p>
 <h3 id="part-1-parse_csv">Part 1: <code>parse_csv</code><a class="headerlink" href="#part-1-parse_csv" title="Permanent link">&para;</a></h3>
 <p>根据 README 的指引，首先我们需要了解 <code>split</code> 函数。阅读源码，我们可以知道， <code>split</code> 接受 <code>std::string</code> 和 <code>char</code> 作为输入，一个是待分割的字符串，一个是分隔的标记符，输出结果是一个 <code>vector</code> 。
 那么我们就可以往下进行，首先将文件按行输入，然后每行做一个 <code>split</code> ，然后将分割出来的数组放入 <code>courses</code> 中。
@@ -1883,7 +1883,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年7月18日 13:57:10 UTC">2025-07-18</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年7月19日 03:02:51 UTC">2025-07-19</span>
   </span>
 
     
