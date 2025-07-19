@@ -32,7 +32,7 @@ comments: true  #评论，默认不开启
 ### Part 0: Read the code and fill in the `Course` struct
 
 这一部分需要定义 `Course` struct 中变量的类型，阅读代码，转到 `is_valid_course<Course>` 的定义，发现具体内容如下
-![[ass1.png]] 那么根据代码我们就可以知道，三个成员变量都应该是 `std::string` 。
+![](../img/ass1.png) 那么根据代码我们就可以知道，三个成员变量都应该是 `std::string` 。
 
 ### Part 1: `parse_csv`
 
